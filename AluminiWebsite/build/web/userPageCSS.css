@@ -1,0 +1,206 @@
+
+p{
+    font-weight: bold;
+    text-align:center;
+}
+
+#bio{
+    font-weight:normal;
+    text-align: left;
+}
+
+#schoolMatesButton{
+    left:0px;
+    height:100%;
+    width:100%;
+    color: white;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-duration:0.1s;
+    transition-timing-function:ease-in;
+    transition-delay:0.0s;
+    position:relative;
+    background-color: #3B5998;
+    border-radius:20px;
+}
+
+table{
+    width:80%;
+    position: relative;
+    left: 10%;
+    border-collapse:collapse;
+}
+
+
+td, th{
+    border-color:#3B5998;
+    border-width: 2px;
+}
+
+th{
+    border-width: 3px;
+}
+
+#userView{
+    top:125px;
+}
+
+section{
+    position:absolute;
+    width:750px;
+    top: 125px;
+    left: 40%;
+    padding: 10px;
+    background-color:white;
+    border: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #3B5998;
+}
+
+#homeButton{
+    position: relative;
+    top:-40px;
+    left:900px;
+}
+
+#home{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;    
+}
+
+
+a img{
+    outline : none;
+    border:0px;
+}
+
+
+#container{
+    position:relative;
+    width:1000px;
+    height:100%;
+}
+
+
+#siteLogo1{
+    position:relative;
+    left: -50px;
+}   
+
+aside{
+    padding: 10px;
+    top: 50px;
+    left: 5%;
+    width:30%;
+    position:relative;
+    background-color:white;
+    border: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #3B5998;
+    overflow-wrap:normal;
+}
+
+html {
+    background-color: #BACCFF;
+    font-family: arial;
+    width: 100%;
+    height: 100%;
+    clip: auto;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.addSchool{
+    position: relative;
+    width:20%;
+    height: 200px;
+    background-color:#BACCFF;
+    border: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #3B5998;
+}
+
+#buttons{
+    position:absolute;
+    width:750px;
+    top: 110px;
+    left: 40%;
+}
+
+
+.buttons{
+    background-color:white;
+    font-weight: bold;
+    width:250px;
+    height:250px;
+    border: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #3B5998;
+    
+}
+
+
+.buttons:hover{
+    background-color:#6D87D6;
+}
+
+#addSchool{
+    background-image: url(addSchool.png);
+}
+
+#allSchools{
+    height: 257px;
+    background-image: url(AllSchools.png);
+}
+
+#schoolMates{
+    background-image: url(SchoolMates.png);
+}
+
+#inbox{
+    background-image: url(inbox.png);
+}
+
+#button5{
+    background-image: url(NewsPost.png);
+}
+
+#logOut{
+    background-image: url(LogOut.png);
+}
+
+
+
+
+header{
+    z-index: 1000;
+    left:0px;
+    right:0px;
+    top:0px;
+    background-color:#3B5998;
+    position:fixed;
+    text-indent: 200px;
+    width: 100%;
+    height: 60px;
+    border: solid;
+    border-width: 10px;
+    border-color: #3B5998;
+    border-top-width: 20px;
+    border-top-color:#BACCFF;
+    padding-top: 10px;
+}
+
+#profileImage{
+    position: relative;
+    left:5.5%;
+    border: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #3B5998;
+}
